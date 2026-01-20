@@ -69,7 +69,7 @@ if int(keuze) == 1 or keuze == 2:
             break
         else:
             print("Geef de juiste naam in met hoofdletters")
-
+ 
 # als de gebruiker 3 heeft gekozen, vraag of de gebruiker de info wilt en als de gebruiker de info wil, roep de functie op
 elif keuze == 3:
     kaartNaam = responseJson["cards"][0]["name"]
