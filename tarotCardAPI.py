@@ -16,7 +16,7 @@ while True:
     elif keuze == "2":
         while True:
             soort = input("Welk soort kaart wil je kiezen major of minor: ")
-            if soort == "major" or soort == "minor":
+            if soort.lower() == "major" or soort.lower() == "minor":
                 break
             else:
                 print("Typ major of minor.")
